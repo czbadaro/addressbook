@@ -41,7 +41,7 @@ public class InMemoryAddressbookRepository implements AddressbookRepository {
     public Optional<Person> getOldestPerson() {
         return addressbook.values()
                 .stream()
-                .max(Comparator.comparing(Person::getBirthDate));
+                .min(Comparator.comparing(Person::getBirthDate));
     }
 
     @Override
