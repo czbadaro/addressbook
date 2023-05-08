@@ -12,12 +12,3 @@ To run the application um can run as any other spring boot with the following co
 and then:
 `mvn spring-boot:run`
 
-When the app finishes it's starting you'll see the following answers:
-
-`1- THERE ARE 3 MALE PEOPLE`
-
-`2- THE OLDEST PERSON IS Gemma Lane`
-
-`3- Bill McKnight IS 2862 DAYS OLDER THAN Paul Robinson`
-
-![alt text](https://github.com/czbadaro/addressbook/blob/main/result.png?raw=true)
