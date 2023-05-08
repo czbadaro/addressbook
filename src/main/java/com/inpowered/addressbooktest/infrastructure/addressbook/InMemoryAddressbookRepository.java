@@ -1,6 +1,5 @@
 package com.inpowered.addressbooktest.infrastructure.addressbook;
 
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.Map;
@@ -9,9 +8,9 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
+import com.inpowered.addressbooktest.core.addressbook.AddressbookRepository;
 import com.inpowered.addressbooktest.core.person.Gender;
 import com.inpowered.addressbooktest.core.person.Person;
-import com.inpowered.addressbooktest.core.addressbook.AddressbookRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -2,7 +2,6 @@ package com.inpowered.addressbooktest.core.person;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Getter;
-import lombok.ToString;
 
 @Getter
 public enum Gender {
